@@ -1,0 +1,28 @@
+{
+  "name": "lambda-timezone",
+  "version": "1.0.0",
+  "description": "It will be a simple test to find the timezone by AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.136",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "esbuild": "^0.20.2",
+    "eslint": "^8.57.0",
+    "serverless": "^3.38.0",
+    "serverless-esbuild": "^1.52.1",
+    "serverless-offline": "^13.3.3",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "winston": "^3.12.0"
+  }
+}
